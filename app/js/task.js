@@ -11,6 +11,6 @@ Todo.Task = function(taskTitle, taskDescription, taskPriority){
 
 
 Todo.Task.prototype.render = function($TaskListElement) {
-  $TaskListElement.append('<li>' + this.title + ': ' + this.description +  '</li>');
+  $TaskListElement.append('<li id="task" style="font-size: 12pt;">' + this.title + ': ' + this.description +  '</li>');
   this.id =Todo.TaskList.tasks.indexOf(this.name);
 }
