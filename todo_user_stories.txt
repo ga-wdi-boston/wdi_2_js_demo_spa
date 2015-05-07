@@ -1,0 +1,20 @@
+User Stories
+-User Stories-
+1. User on page can see a list of tasks. d: 1, p:1, i:1
+2. User can click on task and see a list of its attributes. d:4, p:2, i:1
+3. User can add a task to its to-do list. d:2, p:2, i:1
+4. User can remove a task from its to-do list. d:2, p:2, i:1
+
+
+-DOM-
+
+
+Object: Tasks
+  attribute: title
+  attribute: description
+  attribute: ID
+  attribute: status
+
+Object: To-Do List
+  method: add task
+  method: remove task
