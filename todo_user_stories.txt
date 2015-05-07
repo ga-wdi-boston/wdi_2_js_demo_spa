@@ -1,0 +1,38 @@
+To Do List Application
+
+User Stories:
+
+US 1: the user should be able to see a list of their tasks.
+  Priority: 1
+  Difficulty: 3
+  Iteration: 1
+
+
+US 2: A user should be able to add items to the todo list.
+  Priority: 1
+  Difficulty: 3
+  Iteration: 1
+
+
+US 3: Each task should have a title, description, id, (must be unique).
+  Priority: 2
+  Difficulty: 3
+  Iteration: 1
+
+
+US 4: Each task should have a status (not started, in-progress or done)
+  Priority: 2
+  Difficulty: 4
+  Iteration: 1
+
+US 5: A user should be able to update the status
+  Priority: 3
+  Difficulty: 4
+  Iteration: 1
+
+
+US 6: A user should be able to remove items from, the todo list.
+  Priority: 2
+  Difficulty: 2
+  Iteration: 1
+
