@@ -1,0 +1,18 @@
+User Story 1: user goes to the main page and should see a list of their tasks. (priority:1, Iteration: 1, Difficulty: 1)
+
+User Story 2: user goes to the main page and should see the title of each task. (priority:1, Iteration: 1, Difficulty: 1)
+
+User Story 3: User on main page with an empty list, user can add a new task. (priority:2, Iteration: 1, Difficulty: 1)
+
+User Story 4: User on main page can add tasks. (priority:2, Iteration: 1, Difficulty: 2)
+
+User Story 5: User on main page can remove tasks. (priority:2, Iteration: 1, Difficulty: 2)
+
+User Story 6: User can set the staus of a task to "not started". (priority:2, Iteration: 1, Difficulty: 2)
+
+User Story 7: User can set the staus of a task to "In Progress". (priority:2, Iteration: 1, Difficulty: 2)
+
+User Story 8: User can set the staus of a task to "Completed". (priority:2, Iteration: 1, Difficulty: 2)
+
+
+User Story 9: User can select individual task and edit the content.(priority:2, Iteration: 1, Difficulty: 2)
