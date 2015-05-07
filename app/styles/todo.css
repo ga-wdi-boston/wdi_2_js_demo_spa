@@ -1,0 +1,14 @@
+body {
+  background-color: #acccc6;
+  font-family: Arial;
+}
+
+.noteCard {
+  margin: 0 auto;
+  width: 700px;
+  border: #777 1px solid;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: #d5e5e2;
+}
