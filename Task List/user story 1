@@ -1,0 +1,58 @@
+user story 1
+
+user should be able to see a list of tasks on main page
+priority:1
+iteration:1
+difficulty:1
+
+
+user story 2
+
+user should see the task title on main page
+priority: 1
+iteration: 1
+difficulty: 1
+
+
+user story 3
+
+user should be able to add to list if nothing there
+
+priority:1
+priority:1
+difficulty:1
+
+
+user story 4
+
+user should be able to add task to list
+
+priority:2
+iteration:1
+difficulty:2
+
+
+user story 5
+
+user should be able to remove task to list
+priority: 2
+iteration: 1
+difficulty:2s
+
+
+user story 6
+
+user should be able to see if a task is not starteincomplete, in progress or done
+
+priority:2
+iteration:1
+difficulty:2
+
+
+user story 7
+
+user should be able to see details of task
+
+priority: 2
+iteration: 1
+difficulty: 2

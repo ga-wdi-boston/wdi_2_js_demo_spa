@@ -1,25 +1,14 @@
+/* global Spotify, $*/
 'use strict';
 
-var trace = function(){
-  for(var i = 0; i < arguments.length; i++){
-    console.log(arguments[i]);
-  }
-};
-
-var App = App || {};
-
-App.square = function(x){
-  return x * x
-};
-
-App.cube = function(x){
-  return x * x * x
-};
-
-App.greet = function(string){
-  return string = typeof string !== 'undefined' ? 'Hello ' + string : "Hello World";
-};
-
 $(document).ready(function(){
-  trace('hello world');
+  console.log('Time to build a Playlist for Spotify');
+
+  debugger;
+  // Get the DOM Element with id of 'spotify-songs'
+  // And pass it to the init method for Spotify.Playlist
+  var songs = Spotify.Playlist.init($('#spotify-songs'));
+
+  // Invoke the Spotify playlist render method.
+  Spotify.playList.render(songs);
 });
