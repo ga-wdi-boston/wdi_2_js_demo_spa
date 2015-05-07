@@ -113,6 +113,32 @@ Let's take a snapshot of these domain objects, their properties and their relati
 
 Create User Stories and Domain Objects/Models for a Todo application.
 
+Story 1) A user will be able to create a new task
+Priority : 1
+Difficulty : 1
+Iteration: 1
+
+Story 2) A user will be able to delete an existing task
+Priority: 1
+Difficulty: 1
+Iteration: 1
+
+Story 3) A user will be able to edit an existing task (title/description/status/listContaining) **this should be more than one story**
+Priority: 1
+Difficulty: 2
+Iteration: 1
+
+Story 5) A user will be able to remove a task from a list
+Priority: 2
+Difficulty: 2
+Iteration: 1
+
+Story 7 ) A user will be able to view all tasks on the list
+Priority: 2
+Difficulty: 2
+Iteration: 1
+
+
 As explained to the developer, *Initially, the user should be able to see a list of their tasks and manage them.*
 
 Each task should have a title, description, id, (must be unique) and a status (not started, in-progress or done).
