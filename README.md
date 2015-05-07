@@ -115,7 +115,7 @@ Create User Stories and Domain Objects/Models for a Todo application.
 
 As explained to the developer, *Initially, the user should be able to see a list of their tasks and manage them.*
 
-Each task should have a title, description, id, (must be unique) and a status (not started, in-progress or done).
+Each item should have a title, description, id, (must be unique) and a status (not started, in-progress or done).
 
 A user should be able to add items to, and remove items from, the todo list.
 
