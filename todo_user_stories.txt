@@ -1,0 +1,41 @@
+Iteration 1:
+User Story 1
+Should be able to see a list of tasks
+P1;D1;
+
+User Story 2
+Should be able to see task's title
+P1;D1;
+
+User Story 3
+Should be able to select a task and see it's Title, Note, Due Date, Completion Date, Completed(yes/no)
+P2;D1;
+
+User Story 4
+Should be able to create a Task
+P1;D2;
+
+User Story 5
+Should be able to remove a Task
+P2;D2;
+
+User Story 6
+Should be able to edit description
+P3;D1;
+
+User Story 7
+Should be able to change Title
+P3;D1;
+
+User Story 8
+Should be to change status
+P3;D1;
+
+
+Objects
+TaskList
+Task
+
+
+TaskList has many Tasks
+Task belongs to one TaskList
