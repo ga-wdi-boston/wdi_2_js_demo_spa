@@ -1,0 +1,56 @@
+User Story 1
+User on main page, user should be able to see list of tasks on main page.
+
+  Priority: 1
+  Iteration: 1
+  Difficulty: 1
+
+User Story 2
+User on main page, user should be able to see the task title on main page.
+
+  Priority: 1
+  Iteration: 1
+  Difficulty: 1
+
+User Story 3
+User on main page, user should be able to add to list
+
+  Priority: 2
+  Iteration: 1
+  Difficulty: 2
+
+User Story 4
+User on main page, user should be able to remove to list
+
+  Priority: 2
+  Iteration: 1
+  Difficulty: 2
+
+User Story 5
+User on main page, user should be able to set progress status to not started
+
+  Priority: 2
+  Iteration: 1
+  Difficulty: 2
+
+User Story 6
+User on main page, user should be able to set progress status to in progress
+
+  Priority: 2
+  Iteration: 1
+  Difficulty: 2
+
+User Story 7
+User on main page, user should be able to set progress status to compelete
+
+  Priority: 2
+  Iteration: 1
+  Difficulty: 2
+
+
+User Story 8
+User on main page, user should be able to view description and id of task
+
+  Priority: 1
+  Iteration: 1
+  Difficulty: 2
