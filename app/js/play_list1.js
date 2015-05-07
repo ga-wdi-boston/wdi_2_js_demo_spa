@@ -1,6 +1,6 @@
-/* global Spotify */
+///* global Spotify */
 'use strict';
-
+/*
 // This will create one global variable for our app.
 // It will act as a namespace for our application
 var Spotify = Spotify || {};
@@ -18,15 +18,16 @@ Spotify.PlayList = {
   init: function(appPlayListElement){
     this.$playListElement = appPlayListElement;
 
-    // Will eventually be a remote call to get songs from the server 
+    // Will eventually be a remote call to get songs from the server
     return this.getSongs();
   },
   // Render each song into HTML
   render: function(songs){
-    var id = 1; 
+    var id = 1;
     songs.forEach(function(song){
      this.$playListElement.append('<li id="song-' + id.toString() + '" >' + song.title + '</li>');
      id++;
-    }); 
+    });
   }
 };
+*/

@@ -6,31 +6,36 @@
 
 //the spotify object "Playlist" property
 //is a different object literal
-Spotify.PlayList = {
-  //3. getSongs() is function that returns an array of songs
-  getSongs:function(){
-    var songs = [];
-    //push object that represents a Song into the local songs array
-    songs.push(new Spotify.Song('Lost Cause',1.99, 183,'Beck'));
-    songs.push(new Spotify.Song('Teen Spirit',1.49,234,'Nirvana'));
-    songs.push(new Spotify.Song('Whole Lotta Love',2.49,204,'Led Zeppelin'));
-    songs.push(new Spotify.Song('Mother', 3.49,583,'Pink Floyd'));
-    return songs;
-  },
-  //2. initialize the playlist which functino has to getSongs()
-  init: function(appPlayListElement){
-    //set the DOM Element for the play list
-    this.$playListElement = appPlayListElement;
-    //return all the pllaylist songs
-    return this.getSongs();
-  },
-  //render is a function that adds each song to html
-  render: function(songs){
-    var id = 1;
-    songs.forEach(function(song){
-      song.render(this.$playListElement,id);
-      id++;
-    },this);
+Spotify.PlayList = (function(){
+
+  //define a private variable named _allSongs
+  //and set it to an empty array
+  var _allSongs = [],
+  _$playListElement;
+
+  //define a private method named _init
+  function _getSongs(){
+    _allSongs.push(new Spotify.Song('Lost Cause',1.99, 183,'Beck'));
+    _allSongs.push(new Spotify.Song('Teen Spirit',1.49,234,'Nirvana'));
+    _allSongs.push(new Spotify.Song('Whole Lotta Love',2.49,204,'Led Zeppelin'));
+    _allSongs.push(new Spotify.Song('Mother', 3.49,583,'Pink Floyd'));
   }
 
- };
+  function _init(appPlayListElement){
+    _$playListElement = appPlayListElement;
+    _getSongs();
+  }
+
+  //define a private method name _render
+  function _render(){
+    var id = 1;
+    _allSongs.forEach(function(song){
+      song.render(_$playListElement,id);
+      id++;
+    })
+  }
+  return{
+    init: _init,
+    render: _render
+  }
+ })();

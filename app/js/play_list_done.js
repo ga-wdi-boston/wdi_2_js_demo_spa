@@ -1,6 +1,8 @@
-/* global Spotify*/
+// /* global Spotify*/
 /* jshint unused: true */
 'use strict';
+
+/*
 // This will create one global variable for our app.
 // It will act as a namespace for our application
 var Spotify = Spotify || {};
@@ -10,7 +12,7 @@ var Spotify = Spotify || {};
 Spotify.PlayList = (function(){
 
   // private variable, array that contains all the songs
-  var _songs = [], 
+  var _songs = [],
   // The HTML DOM Element for the playlist
   $playListElement;
 
@@ -18,10 +20,10 @@ Spotify.PlayList = (function(){
   function _init(appPlayListElement){
     $playListElement = appPlayListElement;
 
-    // Will eventually be a remote call to get songs from the server 
+    // Will eventually be a remote call to get songs from the server
     _getSongs();
   }
-  
+
   // Dummy function that creates a initial set of songs.
   // We'll get these songs from the backend server later
   function _getSongs(){
@@ -33,7 +35,7 @@ Spotify.PlayList = (function(){
 
   // Render each song into HTML
   function _render(){
-    var id = 1; 
+    var id = 1;
     _songs.forEach(function(song){
      song.render($playListElement, id);
      id++;
@@ -46,3 +48,4 @@ Spotify.PlayList = (function(){
     render: _render
   };
 })();
+*/

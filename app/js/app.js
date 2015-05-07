@@ -6,11 +6,14 @@ $(document).ready(function(){
 
   //get the DOM Element with id of 'spotify-songs'
   //and pass it to the init method for Spotify.Playlist
-  //1. invoke init
-  var songs = Spotify.PlayList.init($('#spotify-songs'));
 
-  //Invoke the Spotify playlist render method
-  //4.then we render songs
-  Spotify.PlayList.render(songs);
+  //invoke the playlist which returns an object with 2 methods
+  //init and render
+  var pl = Spotify.PlayList;
+
+  //invoke the init method of pl
+  pl.init($('#spotify-songs'));
+
+  pl.render();
 });
 
