@@ -1,0 +1,45 @@
+ToDo App
+
+Stage 1:
+User Story 1 - P1;D1;I1
+  From main page-->show tasklist
+
+User Story 2 - P1;D1;I1
+  From main page-->show task title
+
+User Story 3 - P2;D2:I1
+  From main page-->select task and show:
+  -title-(string)
+  -description-(string)
+  -id: (Must be unique-number/string)
+  -status: Either not-started, in-progess, or done (string)
+
+User Story 4 - P1;D2;I1
+  From main page-->add task to tasklist
+
+User Story 5 - P2;D2:I1
+  From main page-->remove task from tasklist
+
+User Story 6 - P3;D1;I1
+  From task--> edit description from task
+
+User Story 7 - P3;D1:I1
+  From task--> edit title from task
+
+User Story 8 - P3;D1:I1
+  From task--> edit status from task
+
+
+Stage 2:
+  DOM objects
+  -Tasks
+    -object for each task with 4 keys(title, description, id, status)
+    must render itself
+  -Tasklist
+    -object which contains tasks(objects)
+    must render itself
+    must be able to add
+    must be able to remove
+    must mark tasks as completed
+  -User
+    -object that prompts tasklist(object of series of objects)
