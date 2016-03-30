@@ -1,5 +1,5 @@
 'use strict';
-
+/*
 // Because this function returns another function that has access to the
 // "private" var i, the returned function is, effectively, "privileged."
 
@@ -23,3 +23,4 @@ counter2(); // logs: 1
 counter2(); // logs: 2
 
 i; // ReferenceError: i is not defined (it only exists inside makeCounter)
+*/
